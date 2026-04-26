@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 Climate Risk Intelligence System (CRII)
 
 A geospatial intelligence system that analyzes climate risks across India using satellite data, environmental indicators, and real-time weather integration.
@@ -238,3 +239,7 @@ This project is for academic and research purposes.
 This is an evolving system aimed at building a **data-driven climate risk intelligence platform** for India.
 
 ---
+=======
+# CRII
+Major Project 
+>>>>>>> 316aa46dd91a4b661cb69985cfc3c7754669042a
