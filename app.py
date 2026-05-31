@@ -26,6 +26,13 @@ st.set_page_config(
 # ── CUSTOM CSS ───────────────────────────────────────────────────
 st.markdown("""
 <style>
+    
+    /* Main app background */
+    .stApp {
+        background-color: #0E1117;
+        color: white;
+    }
+            
     /* Tighten top padding */
     .block-container { padding-top: 1.5rem; }
 
@@ -61,8 +68,16 @@ st.markdown("""
         padding: 10px 14px;
     }
 
-    /* Sidebar — clean look */
-    section[data-testid="stSidebar"] { background: #f0f2f6; }
+    /* Sidebar — dark look */
+    section[data-testid="stSidebar"] {
+        background-color: #0E1117 !important;
+    }
+
+    /* Sidebar text */
+    section[data-testid="stSidebar"] * {
+        color: white !important;
+    }
+            
 </style>
 """, unsafe_allow_html=True)
 
