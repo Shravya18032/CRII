@@ -9,10 +9,6 @@ env/
 **pycache**/
 *.pyc
 
-# Data files
-
-data/
-*.csv
 
 # Environment variables
 
