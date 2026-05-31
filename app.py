@@ -27,14 +27,10 @@ st.set_page_config(
 st.markdown("""
 <style>
     
-    /* Main app background */
-    .stApp {
-        background-color: #0E1117;
-        color: white;
-    }
-            
     /* Tighten top padding */
-    .block-container { padding-top: 1.5rem; }
+    .block-container {
+        padding-top: 1.5rem;
+    }
 
     /* Risk badge pill */
     .risk-pill {
@@ -45,6 +41,7 @@ st.markdown("""
         font-weight: 600;
         margin-top: 4px;
     }
+
     .risk-Low      { background:#d4edda; color:#155724; }
     .risk-Moderate { background:#fff3cd; color:#856404; }
     .risk-High     { background:#ffe0b2; color:#e65100; }
@@ -52,7 +49,6 @@ st.markdown("""
 
     /* Agent output box */
     .agent-box {
-        background: #f8f9fa;
         border-left: 3px solid #1a73e8;
         border-radius: 8px;
         padding: 1rem 1.2rem;
@@ -60,22 +56,10 @@ st.markdown("""
         line-height: 1.8;
     }
 
-    /* Metric card tweak */
+    /* Metric cards */
     [data-testid="metric-container"] {
-        background: #f8f9fa;
-        border: 1px solid #e0e0e0;
         border-radius: 8px;
         padding: 10px 14px;
-    }
-
-    /* Sidebar — dark look */
-    section[data-testid="stSidebar"] {
-        background-color: #0E1117 !important;
-    }
-
-    /* Sidebar text */
-    section[data-testid="stSidebar"] * {
-        color: white !important;
     }
             
 </style>
