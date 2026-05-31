@@ -67,8 +67,8 @@ st.markdown("""
 
 # ── SIDEBAR — user-facing info only, no API internals ────────────
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/ISRO_logo.svg/200px-ISRO_logo.svg.png",
-             width=60)
+    #st.image("https://share.google/Qi8Ps0ztcLAxivnKA",
+             #width=60)
     st.markdown("## 🌍 CRII")
     st.markdown("**Climate Risk Intelligence System**")
     st.markdown("_Satellite-powered risk analysis for India_")
